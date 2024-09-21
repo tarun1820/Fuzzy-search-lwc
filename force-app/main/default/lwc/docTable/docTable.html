@@ -1,0 +1,26 @@
+<!--
+  @description       : 
+  @author            : Tarun E
+  @group             : 
+  @last modified on  : 09-21-2024
+  @last modified by  : Tarun E
+-->
+<template>
+    <lightning-card title="Document Table">
+        <div class="slds-m-around_medium">
+            <lightning-input 
+                label="Search" 
+                placeholder="Search documents..." 
+                onchange={handleSearchChange}>
+            </lightning-input>
+            
+            <lightning-datatable
+                key-field="id"
+                data={filteredRecords}
+                columns={columns}
+                hide-checkbox-column="true">
+            </lightning-datatable>
+            
+        </div>
+    </lightning-card>
+</template>
