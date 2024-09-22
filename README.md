@@ -1,7 +1,3 @@
-Sure! Here’s a creative and well-structured `README.md` file for your Fuse.js implementation in LWC:
-
----
-
 # Fuse.js Fuzzy Search in Lightning Web Components (LWC)
 
 Welcome to the **Fuse.js Fuzzy Search in LWC** project! This repository demonstrates how to integrate Fuse.js, a powerful fuzzy search library, into Salesforce Lightning Web Components (LWC). This project enhances your search capabilities by enabling intuitive, fuzzy logic-based search for document records in Salesforce.
